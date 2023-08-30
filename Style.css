@@ -11,9 +11,9 @@
     width: 100vw;
     height: 100vh;
     background-color: #222;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     
 }
 .card{
@@ -22,8 +22,8 @@
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     text-align: center;
-    margin: 0px auto 0;
-    margin-top: 100px;
+    margin: 100px auto;
+    /* margin-top: 100px; */
     border-radius: 20px;
     padding: 40px 35px;
     padding-bottom: 100px;
@@ -79,6 +79,7 @@
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+
 }
 .col{
     display: flex;
@@ -92,5 +93,15 @@
 }
 .humid, .wind{
     font-size: 28px;
-    margin-top: -6px;
+    /* margin-top: -6px; */
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
