@@ -42,4 +42,11 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
+let enter=document.querySelector(".search-input");
+enter.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        let input = searchBox.value;
+        checkWeather(input);
+    }
+});
 
